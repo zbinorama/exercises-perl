@@ -1,0 +1,10 @@
+---
+
+language:
+  docker_image: "hexletbasics/exercises-perl"
+  extension: perl
+  exercise_filename: main.pm
+  exercise_test_filename: test.pl
+  learn_as: first_language
+  progress: in_development
+  name: Perl
