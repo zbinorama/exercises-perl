@@ -1,5 +1,7 @@
 # exercises-perl
 
+[![Docker](https://github.com/hexlet-basics/exercises-perl/actions/workflows/Docker.yml/badge.svg)](https://github.com/hexlet-basics/exercises-perl/actions/workflows/Docker.yml)
+
 ## How to contribute
 
 * Discussions at #hexlet-volunteers Slack channel http://slack.hexlet.io
