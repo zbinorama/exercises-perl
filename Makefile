@@ -9,7 +9,7 @@ compose-build:
 	docker-compose build
 
 code-lint:
-	@ echo lint
+	@(for i in $$(find . -type f -name main.pm); do perlcritic $$(dirname $$i)/main.pm ; done)
 
 compose-clean:
 	docker-compose run exercises make clean
@@ -19,6 +19,9 @@ compose-bash:
 
 compose-test:
 	docker-compose run exercises make test
+
+compose-code-lint:
+	docker-compose run exercises make code-lint
 
 compose-description-lint:
 	docker-compose run exercises make description-lint
