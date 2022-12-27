@@ -6,6 +6,8 @@ RUN (echo y;echo o conf prerequisites_policy follow;echo o conf commit)|cpan
 
 RUN cpan install Test::Output
 
+RUN cpan install Perl::Critic
+
 WORKDIR /exercises-perl
 
 COPY . .
